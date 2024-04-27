@@ -1,0 +1,50 @@
+@media (max-width: 750px) {
+  main{
+    width: 34rem;
+    height: 30rem;
+  }
+  .player{
+    padding: 1rem;
+}
+.name{
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+.score{
+    font-size: 2.5rem;
+}
+.current {
+    padding: 1rem;
+}
+.current-label{
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.current-score{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 1.1rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 12.50rem;
+    font-weight: 600;
+}
+.btn::first-letter {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 0.1rem;
+  }
+  .btn--new {
+    top: 4rem;
+  }
+  .btn--roll {
+    top: 15rem;
+  }
+  .btn--hold {
+    top: 18rem;
+  }
+  .dice{
+    top: 8rem;
+    height: 5rem;
+  }
+}
